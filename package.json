@@ -1,0 +1,25 @@
+{
+  "name": "import-file-to-sharepoint-nodejs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "node ./dist/server.js",
+  "build": "tsc"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/msal-node": "^2.10.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.9",
+    "exceljs": "^4.4.0",
+    "express": "^4.19.2",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
